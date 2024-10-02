@@ -23,7 +23,7 @@ const provider = new AnchorProvider(connection, window.solana, {});
 // Initialize program with the provider and IDL
 const program = new Program(idl, presaleProgramId, provider);
 const presaleInfoPubkey = new PublicKey(
-  "92oqkSrLCKkmdaB8L7azwJ37GSb5szqr4rhdCva4epH7"
+  "4axqzGngUCF1wf9Qkhjge7j64TXCDrRK4shtYek8xFQb"
 );
 var globalWallet;
 // Connect wallet function
